@@ -1,0 +1,146 @@
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+
+*/
+h1{
+  font-family: 'Georgia', serif;
+  line-height: 80px;
+  color: white;
+}
+
+h2, h3{
+  font-family: 'Georgia', serif;
+  color: #4aaaa5;
+}
+
+p, a{
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #777777;
+  text-decoration: none;
+}
+
+body {
+  background-color: #E0E0E0;
+}
+
+a:hover{
+  color: #4aaaa5;
+}
+
+.name, .out{
+  display: inline-block;
+}
+
+
+.header {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  float:left;
+  padding-bottom: 45px;
+  padding-top: 20px;
+  top: 0;
+  left: 0;
+}
+
+.name {
+  margin-left: 100px;
+  padding-bottom: 13px;
+  text-align: center;
+  height: 110px;
+  width: 220px;
+  background-color: #4AAAA5;
+  top: 0;
+  border: 1px solid #dddddd;
+  position: fixed;
+}
+
+
+.out{
+  margin-left: 1000px;
+  line-height: 60px;
+}
+
+ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+}
+
+.container{
+  margin-top: 90px;
+  display: inline-block;
+}
+
+.main {
+  height: 480px;
+  background-color: #fff;
+  width: 600px;
+  margin-top: 120px;
+  margin-left: 60px;
+  margin-bottom: 120px;
+  float: left;
+  text-align: center;
+}
+
+aside{
+  height:240px;
+  width:240px;
+  margin-top:120px;
+  margin-left: 300px;
+  float:left;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+#logoLink {
+  height: 100px;
+  width:100px;
+}
+
+#profilePic{
+  height: 200px;
+  width: 200px;
+}
+
+.contactMe{
+  text-align: left;
+  padding-left: 15px;
+  line-height: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+}
+
+footer {
+  position:fixed;
+  bottom:0;
+  background-color: #666666;
+  width:100%;
+  text-align: center;
+  left: 0;
+  margin-left: auto;
+}
+
+#footText {
+  color: #bbbcbf;
+}
