@@ -20,7 +20,11 @@ h1{
 h2, h3{
   font-family: 'Georgia', serif;
   color: #4aaaa5;
+  line-height: 30px;
+  border-bottom: 5px solid #E0E0E0;;
+  padding-bottom: 5px;
 }
+
 
 p, a{
   font-family: 'Helvetica Neue', sans-serif;
@@ -89,7 +93,7 @@ li {
 }
 
 .main {
-  height: 480px;
+  height: 400px;
   background-color: #fff;
   width: 600px;
   margin-top: 120px;
@@ -100,8 +104,8 @@ li {
 }
 
 aside{
-  height:240px;
-  width:240px;
+  height:325px;
+  width:300px;
   margin-top:120px;
   margin-left: 300px;
   float:left;
@@ -113,22 +117,25 @@ aside{
 #logoLink {
   height: 100px;
   width:100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #profilePic{
   height: 200px;
   width: 200px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
 
 .contactMe{
   text-align: left;
   padding-left: 15px;
   line-height: 30px;
-}
-
-h2 {
-  border-bottom: 2px solid black;
-  padding-bottom: 2px;
 }
 
 footer {
@@ -143,4 +150,40 @@ footer {
 
 #footText {
   color: #bbbcbf;
+}
+
+.mainPortfolio{
+    height: 700px;
+    background-color: #fff;
+    width: 600px;
+    margin-top: 120px;
+    margin-left: 60px;
+    margin-bottom: 120px;
+    float: left;
+    text-align: center;
+}
+
+.mainContact{
+    height: 500px;
+    background-color: #fff;
+    width: 600px;
+    margin-top: 120px;
+    margin-left: 60px;
+    margin-bottom: 120px;
+    float: left;
+    text-align: center;
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+#loremPixel{
+  float: center;
 }
