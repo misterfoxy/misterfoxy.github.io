@@ -1,66 +1,78 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Fox Portfolio</title>
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Michael Scott Fox</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-  <body>
+<body>
+  <nav class="navbar navbar-default" id="masthead">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a class="navbar-brand" id="logo">Michael Fox</a>
+        </div>
 
-    <nav class="header">
+        <div class="col-md-6">
+            <!-- spacer -->
+        </div>
 
-      <div class="name">
-        <h1>Michael Fox</h1>
+        <div class="col-md-3">
+          <ul class="nav navbar-nav" id ="out">
+            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<div class="container container-fluid">
+  <div class="row">
+    <div class="col-md-8" id="main-section">
+      <h1>About Me</h1>
+      <img src="assets/images/profile.jpg" class="auth-image" alt="Your Name">
+      <p>
+      Hello! My name is Michael Fox, and I'm an aspiring Web Developer. I was born
+      in Anaheim, California, and currently reside in Tempe, Arizona. I have been
+      studying web technologies for two years, and currently am enrolled in the
+      University of Arizona coding bootcamp.
+      </p>
+      <p>
+        Some of my hobbies include Krav Maga, Dachshund Racing, and reading
+        Kurt Vonnegut. I'm currently employed as a bartender, and I make a mean
+        Margarita! If you want to get in contact with me, head on over to the
+        contact link, and I'll be sure to get back to you promptly.
+      </p>
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-default" id="sidebar">
+        <div class="panel-heading"><p>Connect with Me</p></div>
+          <div class="panel-body">
+            <a href="https://github.com/misterfoxy"><img src="assets/images/github.jpg" class="social" alt="GitHub" /></a>
+            <a href="https://linkedin.com/in/michaelscottfox"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+            <a href="https://stackoverflow.com"><img src="assets/images/stack.png" class="social" alt="Stack Overflow" /></a>
+        </div>
       </div>
 
+    </div>
+
+  </div>
+
+</div>
 
 
-      <div class="out">
-        <ul id="links">
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Michael Scott Fox
+    </div>
+  </footer>
 
-    </nav>
-
-    <section class="container">
-
-      <div class="main">
-        <h2>About Me</h2>
-        <img id='profilePic' src="assets/images/profile.jpg" alt="me">
-        <br>
-        <p>
-        Hello! My name is Michael Fox, and I'm an aspiring Web Developer. I was born
-        in Anaheim, California, and currently reside in Tempe, Arizona. I have been
-        studying web technologies for two years, and currently am enrolled in the
-        University of Arizona coding bootcamp.
-        </p>
-        <p>
-          Some of my hobbies include Krav Maga, Dachshund Racing, and reading
-          Kurt Vonnegut. I'm currently employed as a bartender -- I make a mean
-          Margarita! If you want to get in contact with me, head on over to the
-          contact link, and I'll be sure to get back to you promptly.
-        </p>
-
-      </div>
-
-      <aside class="sidebar">
-        <h3>Get in touch</h3>
-        <a href="https://github.com/misterfoxy"><img id="logoLink" src="assets/images/github.jpg" alt="github" /></a>
-        <a href="https://linkedin.com/in/michaelscottfox"><img id="logoLink" src="assets/images/linkedin.png" alt="linkedIn" /></a>
-        <a href="https://stackoverflow.com"><img id="logoLink" src="assets/images/stack.png" alt="stackOverflow" /></a>
-      </aside>
-
-    </section>
-
-    <footer>
-      <p id="footText">Copyright 2017 Michael Fox</p>
-    </footer>
-
-  </body>
+</body>
 
 </html>

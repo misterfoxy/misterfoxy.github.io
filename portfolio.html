@@ -1,58 +1,88 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Fox Portfolio</title>
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
+<!doctype html>
+<html lang="en-us">
 
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Michael Scott Fox</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-    <nav class="header">
+<body>
 
-      <div class="name">
-        <h1>Michael Fox</h1>
+  <nav class="navbar navbar-default" id="masthead">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a class="navbar-brand" id="logo">Michael Fox</a>
+        </div>
+
+        <div class="col-md-6">
+            <!-- spacer -->
+        </div>
+
+        <div class="col-md-3">
+          <ul class="nav navbar-nav" id ="out">
+            <li ><a href="index.html">About</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-md-8" id="main-section">
+        <h1>Portfolio</h1>
+
+        <div class="work">
+          <img src="assets/images/place1.jpg" alt="hangman">
+
+          <h3>Doodle Jump Clone</h3>
+        </div>
+        <div class="work">
+          <img src="assets/images/place2.jpg" alt="RPG Game">
+
+          <h3>Simon Says</h3>
+        </div>
+        <div class="work">
+          <img src="assets/images/place3.jpg" alt="Trivia Game">
+
+          <h3>Basic Calculator</h3>
+        </div>
+        <div class="work">
+          <img src="assets/images/place4.jpg" alt="Rutgers Info Widget">
+
+          <h3>Stock Market Tracker</h3>
+        </div>
+        <div class="work">
+          <img src="assets/images/plae5.jpg" alt="Rock Paper Scissors">
+
+          <h3>Spotify Clone</h3>
+        </div>
       </div>
 
-
-
-      <div class="out">
-        <ul id="links">
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <div class="col-md-4">
+        <div class="panel panel-default" id="sidebar">
+          <div class="panel-heading"><p>Connect with Me</p></div>
+            <div class="panel-body">
+              <a href="https://github.com/misterfoxy"><img src="assets/images/github.jpg" class="social" alt="GitHub" /></a>
+              <a href="https://linkedin.com/in/michaelscottfox"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+              <a href="https://stackoverflow.com"><img src="assets/images/stack.png" class="social" alt="Stack Overflow" /></a>
+            </div>
+        </div>
       </div>
 
-    </nav>
+  </div>
 
-    <section class="container">
-
-      <div class="mainPortfolio">
-        <h2>Portfolio</h2>
-        <img id='loremPixel' src="https://lorempixel.com/400/150" alt="place">
-        <p>Doodle Jump Clone</p>
-        <img id='loremPixel' src="https://lorempixel.com/399/150" alt="place">
-        <p>Random Playlist Generator</p>
-        <img id='loremPixel' src="https://lorempixel.com/401/150" alt="place">
-        <p>Basic Calculator</p>
-
-      </div>
-
-      <aside class="sidebar">
-        <h3>Get in touch</h3>
-        <a href="https://github.com/misterfoxy"><img id="logoLink" src="assets/images/github.jpg" alt="github" /></a>
-        <a href="https://linkedin.com/in/michaelscottfox"><img id="logoLink" src="assets/images/linkedin.png" alt="linkedIn" /></a>
-        <a href="https://stackoverflow.com"><img id="logoLink" src="assets/images/stack.png" alt="stackOverflow" /></a>
-      </aside>
-
-    </section>
-
-    <footer>
-      <p id="footText">Copyright 2017 Michael Fox</p>
-    </footer>
-
-  </body>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Michael Scott Fox
+    </div>
+  </footer>
+</body>
 
 </html>
